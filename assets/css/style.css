@@ -32,11 +32,23 @@ footer * {
 }
 
 /*--------------------------------------------------------------
-# Navbar Logo
+# Navbar
 --------------------------------------------------------------*/
 .logo {
   width: 50px;
   height: 50px;
+}
+
+@media (max-width: 767px) {
+  .navbar-nav.flex-column {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    text-align: center;
+  }
+  .navbar-nav.flex-column li {
+    width: 100%;
+  }
 }
 
 /*--------------------------------------------------------------
